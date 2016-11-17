@@ -23,9 +23,9 @@
   2.1 颜色以及颜色停靠的位置 只需要在颜色的后面写上百分比即可  
   **注意:相应的颜色以及他所对应的位置是一个参数,用`空格`隔开,多个参数之间用 `,` 隔开**
 3. 设置渐变的角度  
-  3.1  background: linear-gradient(to left top,red 0%, blue 10%,green 70%,yellow 80%);
-  **通过关键字的方式:  to 方向 **    
-  3.2  background: linear-gradient(45deg,red 0%, blue 10%,green 70%,yellow 80%);
+  3.1  background: linear-gradient(to left top,red 0%, blue 10%,green 70%,yellow 80%);  
+  **通过关键字的方式:  to 方向**    
+  3.2  background: linear-gradient(45deg,red 0%, blue 10%,green 70%,yellow 80%);  
   **通过设置角度的方式**
    
    
