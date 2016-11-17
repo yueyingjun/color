@@ -26,7 +26,21 @@
   3.1  background: linear-gradient(to left top,red 0%, blue 10%,green 70%,yellow 80%);  
   **通过关键字的方式:  to 方向**    
   3.2  background: linear-gradient(45deg,red 0%, blue 10%,green 70%,yellow 80%);  
-  **通过设置角度的方式**
+  **通过设置角度的方式**  
+### 径向渐变
+1. background: radial-gradient(red, green, blue);
+2. background: radial-gradient(red 0%, green 50%, blue); 
+3. 改变渐变的形状  
+  3.1 background: radial-gradient(circle 50px at 120px 120px,red 0%, green 50%, blue);  
+   circle 形状    50px   渐变的区间    at 120px 120px 渐变起始位置
+  3.2 background: radial-gradient(ellipse 50px 30px at 120px 120px,red 0%, green 50%, blue);  
+   椭圆的大小需要两个半径作为约束
+   
+### 重复渐变  
+   background: repeating-radial-gradient(red, yellow 10%, green 15%);
+   
+ 
+   
    
    
    
